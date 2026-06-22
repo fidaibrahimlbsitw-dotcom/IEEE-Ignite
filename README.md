@@ -34,7 +34,7 @@ IEEE-Ignite/
 
 ->Live Demo
 
-Live Website: [*https://fidaibrahimlbsitw-dotcom.github.io./IEEE-Ignite/*]
+Live Website: [*https://fidaibrahimlbsitw-dotcom.github.io/IEEE-Ignite/*]
 
 ##  GitHub Repository
 
