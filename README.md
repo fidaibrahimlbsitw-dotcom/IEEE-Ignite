@@ -27,9 +27,9 @@ A responsive event website developed for IEEE SB LBSITW to showcase IEEE Ignite,
 ## Project Structure
 
 IEEE-Ignite/
-│── test.html
-│── test.css
-└── test.js
+│── index.html
+│── style.css
+└── script.js
 
 
 ->Live Demo
