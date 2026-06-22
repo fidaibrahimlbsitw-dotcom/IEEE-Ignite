@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Ignite.com</title>
+</head>
+<body>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE Ignite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">IEEE Ignite</div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About IEEE</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+    <!-- Home -->
+    <section id="home" class="hero">
+        <h1>IEEE Ignite 2026</h1>
+        <p class="tagline">
+            -Sparking Innovation, Learning & Collaboration-
+        </p>
+        <br>
+        <div class="desc">
+        <p><strong>Date:</strong> July 25, 2026</p>
+        <p><strong>Venue:</strong> LBS Institute of Technology for Women</p>
+        </div>
+        <br><br>
+        <br>
+        <p class="desc2">
+            IEEE Ignite is a technical event designed to inspire students<br>
+            through workshops, competitions, networking opportunities,
+            and innovative challenges.
+        </p>
+    </section>
+    <!-- About -->
+    <section id="about">
+        <h2>About IEEE</h2>
+        <br><br>
+        <p class="about">
+            ->IEEE is the world's largest technical professional organization
+            dedicated to advancing <br> technology for humanity.
+        </p><br>
+
+        <p class="about">
+            ->The IEEE Student Branch encourages students to develop
+            technical, professional, <br> and leadership skills.
+        </p><br>
+
+        <p class="about">
+            ->IEEE Ignite aims to bring together students for learning,
+            collaboration, and innovation.
+        </p><br>
+        <br>
+        <div class="socials">
+            <a href="https://www.ieee.org" target="_blank">IEEE Website</a>
+            <a href="https://www.instagram.com/ieeeorg" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/company/ieee" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section id="events">
+        <h2>Events</h2>
+
+        <div class="controls">
+            <input
+                type="text"
+                id="search"
+                placeholder="Search events..."
+            >
+
+            <div class="buttons">
+                <button onclick="filterEvents('all')">All</button>
+                <button onclick="filterEvents('technical')">Technical</button>
+                <button onclick="filterEvents('professional')">Professional</button>
+                <button onclick="filterEvents('interactive')">Interactive</button>
+            </div>
+        </div>
+
+        <div class="event-container">
+
+            <!-- Technical -->
+            <div class="card technical">
+                <h3>Web Development Workshop</h3>
+                <p>Build modern websites.</p>
+            </div>
+
+            <div class="card technical">
+                <h3>AI & Machine Learning</h3>
+                <p>Introduction to AI technologies.</p>
+            </div>
+
+            <div class="card technical">
+                <h3>Coding Challenge</h3>
+                <p>Compete with coding skills.</p>
+            </div>
+
+            <!-- Professional -->
+            <div class="card professional">
+                <h3>Resume Building</h3>
+                <p>Create impactful resumes.</p>
+            </div>
+
+            <div class="card professional">
+                <h3>LinkedIn Workshop</h3>
+                <p>Build your professional network.</p>
+            </div>
+
+            <div class="card professional">
+                <h3>Career Guidance Talk</h3>
+                <p>Insights from industry experts.</p>
+            </div>
+
+            <!-- Interactive -->
+            <div class="card interactive">
+                <h3>Tech Quiz</h3>
+                <p>Test your technical knowledge.</p>
+            </div>
+
+            <div class="card interactive">
+                <h3>Innovation Pitch</h3>
+                <p>Present your ideas.</p>
+            </div>
+
+            <div class="card interactive">
+                <h3>Problem Solving Challenge</h3>
+                <p>Solve real-world problems.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Schedule -->
+    <section id="schedule">
+        <h2>Schedule</h2>
+        <br>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+            </tr>
+
+            <tr>
+                <td>9:00 AM</td>
+                <td>Opening Ceremony</td>
+            </tr>
+
+            <tr>
+                <td>10:00 AM</td>
+                <td>Technical Sessions</td>
+            </tr>
+
+            <tr>
+                <td>12:30 PM</td>
+                <td>Lunch Break</td>
+            </tr>
+
+            <tr>
+                <td>1:30 PM</td>
+                <td>Professional Workshops</td>
+            </tr>
+
+            <tr>
+                <td>3:30 PM</td>
+                <td>Interactive Challenges</td>
+            </tr>
+
+            <tr>
+                <td>5:00 PM</td>
+                <td>Closing Ceremony</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+        <h2>FAQ</h2>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Is registration free?
+            </button>
+            <div class="faq-answer">
+                Yes! IEEE Ignite 2026 is completely free to attend. There are no registration fees for any of the events. Simply sign up, show up, and ignite your potential.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can non-IEEE members participate?
+            </button>
+            <div class="faq-answer">
+                Yes, everyone is welcome.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Will certificates be provided?
+            </button>
+            <div class="faq-answer">
+                Yes, certificates will be issued.
+            </div>
+        </div>
+         <div class="faq-item">
+            <button class="faq-question">
+                Who can attend IEEE Ignite 2026?
+            </button>
+            <div class="faq-answer">
+                IEEE Ignite is open to all undergraduate and postgraduate students from any college or university. You don't need to be an IEEE member to participate , everyone passionate about technology is welcome!
+            </div>
+        </div>
+         <div class="faq-item">
+            <button class="faq-question">
+                Do I need to register for individual events?
+            </button>
+            <div class="faq-answer">
+                After registering for Ignite, you can select specific workshops and sessions. Some events like the Coding Challenge and Innovation Pitch require separate sign-ups due to limited slots &mdash; details will be shared after your main registration.
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 IEEE SB LBSITW - Ignite</p>
+    </footer>
+
+    <script src="test.js"></script>
+
+</body>
+</html>
